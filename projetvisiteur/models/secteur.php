@@ -1,6 +1,25 @@
 <?php
 class Secteur{
 
+    private $id;
+    private $lib;
+
+    public function getId()
+    {
+        return $this->id;
+    }
+    public function setId($value)
+    {
+        $this->id=$value;
+    }
+    public function getLib()
+    {
+        return $this->lib;
+    }
+    public function setLib($value)
+    {
+        $this->lib=$value;
+    }
 	/**
      * Retourner tous les artistes de la base
      * @return array<Artist> tableau d'instances de Artist
@@ -32,7 +51,7 @@ class Secteur{
     public static function supprimerSecteur($id)
     {
 		// a completer
-        $sql="delete from secteur where SEC_CODE= :id " ;
+        $sql="delete from secteur where SEC_CODE= :i d " ;
         $resultat=MonPdo::getInstance()->prepare($sql);
         $resultat->bindParam(':id', $id);
         $resultat->execute();

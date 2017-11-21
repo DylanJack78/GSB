@@ -1,6 +1,34 @@
 <?php
 class Departement{
 
+    private $id;
+    private $nom;
+    private $chefVente;
+
+    public function getId()
+    {
+        return $this->id;
+    }
+    public function setId($value)
+    {
+        $this->id=$value;
+    }
+    public function getNom()
+    {
+        return $this->nom;
+    }
+    public function setNom($value)
+    {
+        $this->nom=$value;
+    }
+    public function getChefVente()
+    {
+        return $this->chefVente;
+    }
+    public function setChefVente($value)
+    {
+        $this->chefVente=$value;
+    }
 	/**
      * Retourner tous les artistes de la base
      * @return array<Artist> tableau d'instances de Artist
@@ -16,7 +44,7 @@ class Departement{
 
 	/**
      * ajoute un artiste dans la base
-	 * @param string<nom> nom de l'artiste
+     * @param string<nom> nom de l'artiste
      * @return array<Artist> tableau d'instances de Artist
     */
     public static function ajouterDep($nom,$chef_vente)

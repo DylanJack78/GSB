@@ -1,6 +1,43 @@
 <?php
 class Travail{
 
+    private $idReg;
+    private $idVis;
+    private $dateTra;
+    private $traRole;
+
+    public function getIdReg()
+    {
+        return $this->idReg;
+    }
+    public function setIdReg($value)
+    {
+        $this->idReg=$value;
+    }
+    public function getIdVis()
+    {
+        return $this->idVis;
+    }
+    public function setIdVis($value)
+    {
+        $this->idVis=$value;
+    }
+    public function getDateTra()
+    {
+        return $this->dateTra;
+    }
+    public function setDateTra($value)
+    {
+        $this->dateTra=$value;
+    }
+    public function getTraRole()
+    {
+        return $this->traRole;
+    }
+    public function setTraRole($value)
+    {
+        $this->traRole=$value;
+    }
 	/**
      * Retourner tous les artistes de la base
      * @return array<Artist> tableau d'instances de Artist

@@ -20,19 +20,19 @@
 		</ul>
 	<li>Consulter</li>
 		<ul>
-			<li><a href="index.php?uc=visiteur&action=affich" >Visiteurs</a></li>
-			<li><a href="index.php?uc=departement&action=affich" >Départements</a></li>
-            <li><a href="index.php?uc=region&action=affich" >Région</a></li>
-            <li><a href="index.php?uc=secteur&action=affich" >Secteur</a></li>
-            <li><a href="index.php?uc=travail&action=affich" >Travaux</a></li>
+			<li><a href="index.php?uc=visiteur&action=all" >Visiteurs</a></li>
+			<li><a href="index.php?uc=departement&action=all" >Départements</a></li>
+            <li><a href="index.php?uc=region&action=all" >Région</a></li>
+            <li><a href="index.php?uc=secteur&action=all" >Secteur</a></li>
+            <li><a href="index.php?uc=travail&action=all" >Travaux</a></li>
 		</ul>
 	<li>Nouveaux</li>
 		<ul>
-			<li><a href="index.php?uc=visiteur&action=ajoutForm" >Ajouter Visiteurs</a>
-			<li><a href="index.php?uc=departement&action=ajoutForm" >Ajouter Département</a>
-            <li><a href="index.php?uc=region&action=ajoutForm" >Ajouter Région</a>
-            <li><a href="index.php?uc=secteur&action=ajoutForm" >Ajouter Secteur</a>
-            <li><a href="index.php?uc=travail&action=ajoutForm" >Ajouter Travaux</a>
+			<li><a href="index.php?uc=visiteur&action=ajouter" >Ajouter Visiteurs</a>
+			<li><a href="index.php?uc=departement&action=ajouter" >Ajouter Département</a>
+            <li><a href="index.php?uc=region&action=ajouter" >Ajouter Région</a>
+            <li><a href="index.php?uc=secteur&action=ajouter" >Ajouter Secteur</a>
+            <li><a href="index.php?uc=travail&action=ajouter" >Ajouter Travaux</a>
 		</ul>
 		</ul>
 	</ul>

@@ -1,6 +1,25 @@
 <?php
 class Region{
 
+    private $id;
+    private $nom;
+
+    public function getId()
+    {
+        return $this->id;
+    }
+    public function setId($value)
+    {
+        $this->id=$value;
+    }
+    public function getNom()
+    {
+        return $this->nom;
+    }
+    public function setNom($value)
+    {
+        $this->nom=$value;
+    }
 	/**
      * Retourner tous les artistes de la base
      * @return array<Artist> tableau d'instances de Artist

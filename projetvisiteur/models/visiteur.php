@@ -1,6 +1,62 @@
 <?php
 class Visiteur{
 
+    private $id;
+    private $nom;
+    private $adresse;
+    private $cp;
+    private $ville;
+    private $dateEmb;
+
+    public function getId()
+    {
+        return $this->id;
+    }
+    public function setId($value)
+    {
+        $this->id=$value;
+    }
+    public function getNom()
+    {
+        return $this->nom;
+    }
+    public function setNom($value)
+    {
+        $this->nom=$value;
+    }
+    public function getAdresse()
+    {
+        return $this->adresse;
+    }
+    public function setAdresse($value)
+    {
+        $this->adresse=$value;
+    }
+    public function getCP()
+    {
+        return $this->cp;
+    }
+    public function setCP($value)
+    {
+        $this->cp=$value;
+    }
+    public function getVille()
+    {
+        return $this->ville;
+    }
+    public function setVille($value)
+    {
+        $this->ville=$value;
+    }
+    public function getDateEmb()
+    {
+        return $this->dateEmb;
+    }
+    public function setDateEmb($value)
+    {
+        $this->dateEmb=$value;
+    }
+
 	/**
      * Retourner tous les artistes de la base
      * @return array<Artist> tableau d'instances de Artist
