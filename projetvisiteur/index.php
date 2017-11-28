@@ -6,9 +6,9 @@ require_once("models/region.php");
 require_once("models/secteur.php");
 require_once("models/travail.php");
 require_once("models/pdo.php");
-include("vues/v_menu.php") ; //traitement de la variable uc qui aiguilles vers un contr�leur secondaire ou la vue accueil
+include("vues/v_menu.php") ; //traitement de la variable uc qui aiguilles vers un contr?leur secondaire ou la vue accueil
 
-include("vues/v_entete.php") ; //et de l'en-tete et du menu(cf sch�ma ci-apr�s)
+include("vues/v_entete.php") ; //et de l'en-tete et du menu(cf sch?ma ci-apr?s)
 
 if(!isset($_REQUEST['uc']))
 {
@@ -16,7 +16,7 @@ if(!isset($_REQUEST['uc']))
 }
 else
 {
-	$uc = $_REQUEST['uc']; //sinon on r�cup�re le contr�leur ou il faut aller
+	$uc = $_REQUEST['uc']; //sinon on r?cup?re le contr?leur ou il faut aller
 }
 
 switch($uc)
@@ -58,4 +58,4 @@ switch($uc)
 	}
 }
 include("vues/v_pied.php") ;
-?>
+
